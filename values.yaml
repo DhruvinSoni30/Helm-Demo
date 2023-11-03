@@ -1,0 +1,10 @@
+replicaCount: 3
+image:
+  repository: dhruvin30/dhsoniweb
+  tag: latest
+  pullPolicy: IfNotPresent
+service:
+  name: my-web-app
+  type: LoadBalancer
+  port: 80
+  nameSpace: mywebapp
