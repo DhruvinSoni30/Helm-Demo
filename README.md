@@ -1,2 +1,1 @@
-# Helm-Demo
-Helm Tutorial 
+# Helm Tutorial 
